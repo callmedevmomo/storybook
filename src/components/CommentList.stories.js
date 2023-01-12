@@ -47,6 +47,13 @@ Paginated.args = {
 				avatar: "finn.jpeg",
 			},
 		},
+		{
+			text: "Duis aute irure dolor in reprehenderit in voluptate.",
+			author: {
+				name: "Jin",
+				avatar: "finn.jpeg",
+			},
+		},
 	],
 	totalCount: 10,
 };

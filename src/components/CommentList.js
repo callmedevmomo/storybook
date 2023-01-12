@@ -21,6 +21,8 @@ const CommentItemDiv = styled.div`
 	box-shadow: rgba(0, 0, 0, 0.2) 0 0 10px 0;
 	background: linear-gradient(120deg, rgba(248, 248, 254, 0.95), rgba(250, 250, 250, 0.95));
 	border-radius: 48px;
+	border: 4px solid red;
+	font-weight: bold;
 `;
 
 const AvatarDiv = styled.div`
@@ -62,10 +64,10 @@ const GlobalStyle = createGlobalStyle`
 
 export default function CommentList({ loading, comments, totalCount }) {
 	if (loading) {
-		return <div>loading</div>;
+		return <div>loading~~~</div>;
 	}
 	if (comments.length === 0) {
-		return <div>empty</div>;
+		return <div>empty~~~</div>;
 	}
 	return (
 		<>
